@@ -7,3 +7,5 @@ So we start of with a md file and convert it to htlm and then add styling elemen
 
 At the moment I'm struggling with styling my table.
 I'm trying to select individual rows but end up mixing up the elements.
+
+https://fib88.github.io/progressive-enhancement/
