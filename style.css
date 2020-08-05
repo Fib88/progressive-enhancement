@@ -11,7 +11,7 @@ body {
     color:darkslategray;
     max-width:90%;
     margin:auto;
-    background-image:linear-gradient(to bottom, #d1dee9 , #e4b332);
+    /*background-image:linear-gradient(to bottom, #d1dee9 , #e4b332);*/
     background-image: url("pexels-pixabay-235985.jpg");
     background-repeat:no-repeat;
     background-size: cover;
@@ -38,10 +38,23 @@ blockquote {
 }
 
 .villagers {
-
+    border-left: dashed 3px darkblue;
 }
 
 .farmer {
-
+    border-left:dashed 3px darkred;
 }
 
+header h2{
+    background-color:#ffdb4d;
+}
+
+.good {
+    text-transform:capitalize;
+    color:forestgreen;
+}
+
+.bad{
+    text-transform: capitalize;
+    color:darkred;
+}
