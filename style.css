@@ -63,31 +63,18 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
     width: 20%;
-    border: 1px solid #DCDCDC;
+    border: 3px solid #DCDCDC;
 }
 
-table :nth-child(2) {
-   background:grey;
+tr:nth-child(odd) {
+    background: darkgrey;
 }
 
-table :nth-child(4) {
-    background:grey;
-}
-
-table :nth-child(3) {
-    background:whitesmoke;
-}
-
-table :nth-child(5) {
-    background:whitesmoke;
-}
-
-.story p:first-of-type {
-    font-weight:bold;
+tr:nth-child(even) {
+    background: whitesmoke;
 }
 
 img {
     float:right;
     margin-left:30px;
-    margin-bottom:auto;
 }
